@@ -44,6 +44,12 @@ button:hover {
   box-shadow: 0 5px 15px rgba(30,144,255,0.6);
 }
 
+h2 {
+  color: #FF69B4;
+  text-align: center;
+  text-shadow: 1px 1px 3px #1E90FF;
+}
+
 
 
 
