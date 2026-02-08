@@ -50,6 +50,18 @@ h2 {
   text-shadow: 1px 1px 3px #1E90FF;
 }
 
+#places li {
+  background: linear-gradient(to right, #FFB6C1, #87CEFA);
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 15px;
+  list-style: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
 
 
 
