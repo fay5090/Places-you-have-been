@@ -19,22 +19,25 @@ const form = document.getElementById("place-form");
 // Global array for all places
 const myPlaces = [];
 
+// 
 // ------------------------
 // Default places
 // ------------------------
 const defaultPlaces = [
   new Place(
-    "Nyali ",
+    "Nyali",
     "Beach",
     "July",
     "Went for summer holiday to Nyali with family.",
     "https://shorturl.at/qjTed"
+  ),
 
+  new Place(
     "Nyeri",
     "Town",
     "August",
     "Splendid views, amazing food!",
-    "https://shorturl.at/IlSw4"
+    "https://shorturl.at/yL9L2"
   ),
 
   new Place(
@@ -45,6 +48,9 @@ const defaultPlaces = [
     "https://shorturl.at/3Dn0m"
   )
 ];
+
+
+
 
 // ------------------------
 // Display function
