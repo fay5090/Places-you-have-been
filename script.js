@@ -1,4 +1,4 @@
-// ======= Constructor =======
+//  Constructor 
 function Place(location, landmark, timeOfYear, notes, imageUrl) {
   this.location = location;
   this.landmark = landmark;
@@ -7,16 +7,16 @@ function Place(location, landmark, timeOfYear, notes, imageUrl) {
   this.imageUrl = imageUrl;
 }
 
-// ======= Prototype Method =======
+//  Prototype Method 
 Place.prototype.getSummary = function () {
   return `${this.location} – ${this.landmark}`;
 };
 
-// ======= DOM Elements =======
+//  DOM Elements
 const form = document.getElementById("place-form");
 const placesList = document.getElementById("places");
 
-// ======= Form Submit Event =======
+//  Form Submit Event 
 form.addEventListener("submit", function (event) {
   event.preventDefault(); // prevent page reload
 
@@ -37,7 +37,7 @@ form.addEventListener("submit", function (event) {
   form.reset();
 });
 
-// ======= Function to Display Place =======
+// Function to Display Place
 function displayPlace(place) {
   const li = document.createElement("li");
   li.textContent = place.getSummary();
