@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Places I've Been</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Places I've Been</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-  <body>
-    <div class="container">
-      <h1>Places I Have Been To 🌍✈️</h1>
+<body>
+  <div class="container">
+    <h1>Places I Have Been To 🌍✈️</h1>
 
-      <section class="add-place">
-        <h2>Add a Place 💕</h2>
+    <section id="places-visit">
+      <h2>My Places 🌴</h2>
+      <ul id="places"></ul>
+      <div id="place-details"></div>
+    </section>
 
-        <form id="place-form">
-          <input type="text" id="location" placeholder="Location 📍" required>
-          <input type="text" id="landmarks" placeholder="Landmarks 🏛️">
-          <input type="text" id="timeOfYear" placeholder="Time of Year ☀️🍂">
-           <input type="text" id="imageUrl" placeholder="Image URL 🖼️">
-          <textarea id="notes" placeholder="Notes 📝"></textarea>
-          
+    <section class="add-place">
+      <h2>Add a Place 💕</h2>
 
-          <button type="submit">➕ Add Place</button>
-        </form>
-      </section>
+      <form id="place-form">
+        <input type="text" id="location" placeholder="Location 📍" required>
+        <input type="text" id="landmarks" placeholder="Landmark 🏛️" required>
+        <input type="text" id="timeOfYear" placeholder="Time of Year ☀️🍂" required>
+        <input type="text" id="imageUrl" placeholder="Image URL 🖼️">
+        <textarea id="notes" placeholder="Notes 📝"></textarea>
 
-      <section id="places-visit">
-        <h2>My Places</h2>
-        <ul id="places"></ul>
-        <div id="place-details"></div>
+        <button type="submit">➕ Add Place</button>
+      </form>
+    </section>
+  </div>
 
-      </section>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
+
+
